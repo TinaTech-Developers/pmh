@@ -58,9 +58,9 @@ header .navbar a:hover{
 header .icons i {
     cursor: pointer;
     margin-left: .5rem;
-    height: 3.5 rem;
-    width: 3.5rem;
-    line-height: 3.5rem;
+    height: 4.5 rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
     background: var(--light-color);
     text-align: center;
     color: #fff;
