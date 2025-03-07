@@ -112,11 +112,16 @@ function Footer() {
         <div className="col-span-1 md:col-span-2"></div>
       </div>
       <div className="bg-blue-400 h-16  flex flex-col items-center justify-center">
-        <p className="text-xs">Copyright © 2025 Pressletter Media House.</p>{" "}
+        <p className="text-xs text-center">
+          Copyright © 2025 Pressletter Media House
+        </p>{" "}
         <br />
         <p className="text-xs ">
           Developed by
-          <Link className="text-blue-900" href={"www.tinasoftnexus.co.zw"}>
+          <Link
+            className="text-blue-900 justify-center"
+            href={"www.tinasoftnexus.co.zw"}
+          >
             TinaSoft Nexus
           </Link>
         </p>
