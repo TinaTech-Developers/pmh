@@ -27,16 +27,16 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="./about-us">About Us</Link>
+              <Link href="/about-us">About Us</Link>
             </li>
             <li>
-              <Link href="./services">Services</Link>
+              <Link href="/services">Services</Link>
             </li>
             <li>
-              <Link href="./portfolio">Portfolio</Link>
+              <Link href="/portfolio">Portfolio</Link>
             </li>
             <li>
-              <Link href="./contact">Contact</Link>
+              <Link href="/contact-us">Contact</Link>
             </li>
           </ul>
         </div>
@@ -65,16 +65,16 @@ const Navbar = () => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="./about-us">About Us</Link>
+            <Link href="/about-us">About Us</Link>
           </li>
           <li>
-            <Link href="./services">Services</Link>
+            <Link href="/services">Services</Link>
           </li>
           <li>
-            <Link href="./portfolio">Portfolio</Link>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
           <li>
-            <Link href="./contact">Contact</Link>
+            <Link href="/contact-us">Contact</Link>
           </li>
         </ul>
       </div>
