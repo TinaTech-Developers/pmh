@@ -23,20 +23,35 @@ const Navbar = () => {
             className="w-20 h-16"
           />
           <ul className="flex space-x-6">
-            <li>
-              <Link href="/">Home</Link>
+            <li className="group">
+              <Link href="/" className="text-blue-950">
+                Home
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-900"></span>
+              </Link>
             </li>
-            <li>
-              <Link href="/about-us">About Us</Link>
+            <li className="group">
+              <Link href="/about-us" className="text-blue-950">
+                About Us
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-900"></span>
+              </Link>
             </li>
-            <li>
-              <Link href="/services">Services</Link>
+            <li className="group">
+              <Link href="/services" className="text-blue-950">
+                Services
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-900"></span>
+              </Link>
             </li>
-            <li>
-              <Link href="/portfolio">Portfolio</Link>
+            <li className="group">
+              <Link href="/portfolio" className="text-blue-950">
+                Portfolio
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-900"></span>
+              </Link>
             </li>
-            <li>
-              <Link href="/contact-us">Contact</Link>
+            <li className="group">
+              <Link href="/contact-us" className="text-blue-950">
+                Contact
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-900"></span>
+              </Link>
             </li>
           </ul>
         </div>
@@ -61,20 +76,35 @@ const Navbar = () => {
           </button>
         </div>
         <ul className="mt-8 space-y-6">
-          <li>
-            <Link href="/">Home</Link>
+          <li className="group">
+            <Link href="/" className="text-white">
+              Home
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
+            </Link>
           </li>
-          <li>
-            <Link href="/about-us">About Us</Link>
+          <li className="group">
+            <Link href="/about-us" className="text-white">
+              About Us
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
+            </Link>
           </li>
-          <li>
-            <Link href="/services">Services</Link>
+          <li className="group">
+            <Link href="/services" className="text-white">
+              Services
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
+            </Link>
           </li>
-          <li>
-            <Link href="/portfolio">Portfolio</Link>
+          <li className="group">
+            <Link href="/portfolio" className="text-white">
+              Portfolio
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
+            </Link>
           </li>
-          <li>
-            <Link href="/contact-us">Contact</Link>
+          <li className="group">
+            <Link href="/contact-us" className="text-white">
+              Contact
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
+            </Link>
           </li>
         </ul>
       </div>

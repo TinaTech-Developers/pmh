@@ -3,8 +3,8 @@ import Button from "./Button";
 
 function Promotion() {
   return (
-    <div className="bg-fixed bg-[url('/hero2.jpg')]">
-      <div className="flex flex-col bg-scroll bg-blue-950 w-full h-full  bg-opacity-20 items-center justify-center px-20">
+    <div className="bg-fixed bg-cover bg-[url('/cutting.webp')] h-96">
+      <div className="flex flex-col bg-scroll bg-blue-95 w-full h-full  bg-opacity-20 items-center justify-center px-20">
         <h1 className="text-center text-2xl md:text-4xl py-10 pt-32 text-white font-semibold">
           Talk to us about your needs
         </h1>

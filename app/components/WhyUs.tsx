@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { GiTrophyCup } from "react-icons/gi";
 import { MdBuild } from "react-icons/md";
@@ -5,11 +6,24 @@ import { GiDiamonds } from "react-icons/gi";
 import { GiRollingDices } from "react-icons/gi";
 
 import WhyUsCard from "./WhyUsCard";
+import { motion } from "framer-motion";
 
 function WhyUs() {
   return (
     <div className=" flex flex-col items-center justify-center w-full px-10 bg-white">
-      <div className="col-span-2 flex flex-col items-center py-10 ">
+      <motion.div
+        initial={{
+          y: 100,
+
+          opacity: 0,
+        }}
+        whileInView={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{ duration: 1.8 }}
+        className="col-span-2 flex flex-col items-center py-10 "
+      >
         <h2 className=" text-blue-500 font-semibold">| Trustworthiness</h2>
         <h1 className="text-2xl font-semibold text-[#003366] mt-4">
           Why Choose Us?
@@ -21,8 +35,20 @@ function WhyUs() {
           <span className="h-1 w-14 bg-blue-500 rounded-full"></span>
           <span className="h-1 w-24 bg-blue-500 rounded-full"></span>
         </div>
-      </div>
-      <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-5 ">
+      </motion.div>
+      <motion.div
+        initial={{
+          y: 100,
+
+          opacity: 0,
+        }}
+        whileInView={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{ duration: 1.8 }}
+        className="w-full grid grid-cols-1 md:grid-cols-3 gap-5 "
+      >
         <WhyUsCard
           icon={
             <MdBuild className="p-4  text-white hover:text-white" size={94} />
@@ -62,7 +88,7 @@ function WhyUs() {
           title="Proven Results"
           desc="Our signage helps businesses enhance visibility, attract customers, and create memorable brand experiences."
         />
-      </div>
+      </motion.div>
     </div>
   );
 }

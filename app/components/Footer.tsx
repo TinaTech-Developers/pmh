@@ -62,21 +62,23 @@ function Footer() {
           </div>
         </div>
         <div className="col-span-1 flex flex-col items-start justify-center gap-1 p-10 top-10">
-          <h1 className="text-start text-xl font-bold uppercase ">Programs</h1>
+          <Image
+            src={"/laser.webp"}
+            alt=""
+            height={300}
+            width={200}
+            className="w-[100%] h-[100%] object-cover"
+          />
         </div>
         <div className="col-span-1 md:col-span-2 flex flex-col items-start justify-center p-10">
           <h1 className="text-start text-xl font-bold uppercase ">
-            Newsletter
+            Physical Address
           </h1>
           <div className="grid md:flex  items-center justify-between gap-2 z-10">
-            <input
-              type="text"
-              name="subscription"
-              className="p-2 bg-white w-[70%]"
-            />
-            <div className="w-20 md:w-[104px]">
-              <Button name={"Subscribe"} link={""} />
-            </div>
+            <p>
+              No. 17 Tredgold Dr <br />
+              Belvedere
+            </p>
           </div>
           <div className="flex items-start justify-between gap-2 mt-2">
             <Link href={""}>
@@ -101,7 +103,7 @@ function Footer() {
         <div className="col-span-1 flex justify-center items-center">
           <Link href={"/"}>
             <Image
-              src={"/logo.png"}
+              src={"/pmh logo.png"}
               alt="tinasoftlogo"
               height={100}
               width={200}
