@@ -40,25 +40,16 @@ function EmailnAddress() {
     <div className="grid grid-cols-1 md:grid-cols-2 py-10 px-5 bg-white">
       <div className="flex flex-col items-center justify-center mt-16 p-2 bg-gray-900">
         <h1 className="md:hidden text-2xl text-white mb-2">Where to find us</h1>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d243049.1782988504!2d30.96301553395497!3d-17.855343569852653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-17.8817441!2d31.2511902!4m5!1s0x1931a5ccb7b5ff81%3A0xd786489cb78e8d20!2s17%20Tredgold%20Dr%2C%20Harare!3m2!1d-17.8299383!2d31.0034517!5e0!3m2!1sen!2szw!4v1741614301682!5m2!1sen!2szw"
-          width="800"
-          height="600"
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          className="w-full h-96 object-cover"
-        />
 
-        {/* <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.841691585637!2d30.92431497517325!3d-17.752096883198526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a9b733746d4d%3A0xfb90691621f22626!2sCharles%20Prince!5e0!3m2!1sen!2szw!4v1733400005846!5m2!1sen!2szw"
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.1854726633514!2d31.000876775175296!3d-17.829938283134663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a5ccb7b5ff81%3A0xd786489cb78e8d20!2s17%20Tredgold%20Dr%2C%20Harare!5e0!3m2!1sen!2szw!4v1741615823372!5m2!1sen!2szw"
           width="800"
           height="600"
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           className="w-full h-96 object-cover"
-        ></iframe> */}
+        ></iframe>
       </div>
       <div className="h-full py-8 my-8 w-full flex justify-center items-center text-[#003366]">
         <form
