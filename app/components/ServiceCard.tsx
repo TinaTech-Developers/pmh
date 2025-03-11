@@ -10,7 +10,7 @@ interface ServiceCardProps {
 
 function ServiceCard({ title, image, desc }: ServiceCardProps) {
   return (
-    <div className="w-80 md:w-96 md:h-[500px] h-full border bg-[#003366] shadow-2xl">
+    <div className="w-80 md:w-96 md:h-[500px] h-full border bg-[#003366] shadow-2xl  pb-10">
       <Image
         className="relative w-full h-56 object-cover "
         src={image}
@@ -22,7 +22,7 @@ function ServiceCard({ title, image, desc }: ServiceCardProps) {
         {title}
       </p>
 
-      <p className="p-4 text-sm">{desc}</p>
+      <p className="p-4 text-sm ">{desc}</p>
       <Link className="w-full h-10 border px-4 py-2 mx-4" href={"/"}>
         Read More
       </Link>

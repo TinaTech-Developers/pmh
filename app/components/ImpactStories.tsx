@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 function ImpactStories() {
   return (
-    <div className="flex flex-col bg-white w-full px-10 items-center justify-center">
+    <div className="flex flex-col bg-white w-full  items-center justify-center">
       <motion.div
         initial={{
           y: 100,
