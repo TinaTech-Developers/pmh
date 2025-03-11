@@ -66,7 +66,7 @@ function ImpactStories() {
         transition={{ duration: 1.8 }}
         className="flex flex-wrap gap-5 mt-8 items-center justify-center mx-auto"
       >
-        <div className=" w-80 h-80 bg-blue-300 border mx-auto py-6 p-4">
+        <div className=" md:w-80 w-64  md:h-80 h-full bg-blue-300 border mx-auto py-6 p-4">
           <FaAward size={54} color="white" />
           <h1 className="text-8xl font-bold text-white">
             10<span className="text-lg text-blue-950"> Years+</span>
@@ -81,7 +81,7 @@ function ImpactStories() {
             communities.
           </p>
         </div>
-        <div className=" w-80 h-80 bg-blue-300 border mx-auto py-6 p-4">
+        <div className=" md:w-80 w-64 md:h-80 h-full bg-blue-300 border mx-auto py-6 p-4">
           <FaUsers size={54} color="white" />
           <h1 className="text-8xl font-bold text-white">
             102<span className="text-lg text-blue-950"> Clients+</span>
@@ -96,7 +96,7 @@ function ImpactStories() {
             clients!
           </p>
         </div>
-        <div className="w-80 h-80 bg-blue-300 border mx-auto py-6 p-4">
+        <div className="md:w-80 w-64 md:h-80 h-full bg-blue-300 border mx-auto py-6 p-4">
           <FaBuilding size={54} color="white" />
           <h1 className="text-8xl font-bold text-white">
             2<span className="text-lg text-blue-950"> Branches</span>

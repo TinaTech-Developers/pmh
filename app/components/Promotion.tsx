@@ -12,7 +12,7 @@ function Promotion() {
           Solutions tailored and scaled to suit your business type and size
         </p>
         <div className="py-10 z-10 text-white">
-          <Button name={"GET IN TOUCH WITH US"} link={"/"} />
+          <Button name={"GET IN TOUCH WITH US"} link={"/contact-us"} />
         </div>
       </div>
     </div>

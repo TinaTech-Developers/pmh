@@ -76,7 +76,7 @@ function Footer() {
           </h1>
           <div className="grid md:flex  items-center justify-between gap-2 z-10">
             <p>
-              No. 17 Tredgold Dr <br />
+              No. 17 Tredgold Drive, <br />
               Belvedere
             </p>
           </div>
@@ -94,7 +94,7 @@ function Footer() {
               <FaXTwitter size={25} color="white" />
             </Link>
           </div>
-          <p>Mobile: +263 71 247 1209 | +263 77 305 9753</p>
+          <p>Mobile: +263 78 693 2140 | +263 78 693 508</p>
           <p>Email: info@pmh.co.zw</p>
         </div>
       </div>

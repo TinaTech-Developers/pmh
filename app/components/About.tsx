@@ -41,7 +41,7 @@ export default function About() {
           //   opacity: 1,
           // }}
           // transition={{ duration: 1.8 }}
-          className="text-gray-700"
+          className="text-gray-700 text-sm"
         >
           Welcome to Pressletter Media House, the leading provider of custom
           signage solutions. With over 10 years of experience, we specialize in
@@ -68,7 +68,7 @@ export default function About() {
         transition={{ duration: 1.8 }}
         className=" flex items-center justify-center md:mt-16 w-80 h-80  border px-10 bg-[#003366] rounded-full mx-auto"
       >
-        <Image src={"/des.jpeg"} alt="" height={300} width={300} />
+        <Image src={"/pmh logo.png"} alt="" height={300} width={300} />
       </motion.div>
     </div>
   );

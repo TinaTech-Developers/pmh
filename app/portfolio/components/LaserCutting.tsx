@@ -1,0 +1,233 @@
+"use client";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
+import { Swiper as SwiperClass } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/autoplay";
+import styled from "@emotion/styled";
+import { useState } from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+
+const Slide = styled.div`
+  height: 200px; /* Adjust height as needed */
+  border: 1px solid #ccc; /* Example border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5; /* Example background */
+`;
+
+const PaginationContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 5px; /* Space between pagination bullets */
+  margin-top: 10px; /* Space above pagination */
+`;
+
+const StyledSwiper = styled(Swiper)`
+  /* Ensure the Swiper has room for the pagination */
+  padding-bottom: 40px; /* Adjust based on the pagination height */
+`;
+
+function ImageSliderLaserCutting() {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  return (
+    <>
+      <StyledSwiper
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+        spaceBetween={50}
+        pagination={{ clickable: true }}
+        onSlideChange={(swiper: SwiperClass) =>
+          setActiveIndex(swiper.activeIndex)
+        } // Type the 'swiper' parameter
+        autoplay={{
+          delay: 3000, // Auto slide every 3 seconds
+          disableOnInteraction: false, // Allow auto-slide even when interacting
+        }}
+        loop={true} // Explicitly enable loop
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        }}
+      >
+        <SwiperSlide>
+          <NetworkingCard
+            image={"/IMG-20250311-WA0033.jpg"}
+            link={"https:www.buse.co.zw"}
+            company={" BUSE"}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <NetworkingCard
+            image={"/IMG-20250311-WA0022.jpg"}
+            link={"/portfolio"}
+            company={"THE COOPORATE CONSULTANCY"}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <NetworkingCard
+            image={"/IMG-20250311-WA0027.jpg"}
+            link={"/portfolio"}
+            company={""}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <NetworkingCard
+            image={"/IMG-20250311-WA0029.jpg"}
+            link={"/portfolio"}
+            company={""}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <NetworkingCard
+            image={"/IMG-20250311-WA0031.jpg"}
+            link={"/portfolio"}
+            company={""}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <NetworkingCard
+            image={"/IMG-20250311-WA0034.jpg"}
+            link={"portfolio"}
+            company={""}
+          />
+        </SwiperSlide>
+      </StyledSwiper>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mx-auto mt-10">
+        <div className="col-span-1 md:h-65 h-full border p-6 shadow-2xl">
+          <div className="w-full">
+            <h1 className="text-xl font-semibold ">Laser Engraving:</h1>
+          </div>
+          <p className="my-4">
+            Laser engraving uses a high-powered laser to carve or etch deeper
+            marks into a material, while laser marking alters the surface with
+            heat to create high-contrast, permanent marks without removing
+            material. Engraving creates deeper, more visible designs, while
+            marking results in subtle surface-level changes. Both are used for
+            branding, personalization, and industrial applications.
+          </p>
+          <Link
+            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
+            href={"/services/networking"}
+          >
+            Explore Our Laser Services
+          </Link>
+        </div>
+        <div className="col-span-1 md:h-65 h-full border px-6 shadow-2xl py-2">
+          <div className="w-full">
+            <h1 className="text-xl font-semibold ">3D Signage</h1>
+          </div>
+
+          <p className="my-2">
+            At PMH, we offer custom 3D sign services that bring your brand to
+            life with depth and dimension. Our expertly crafted 3D signs are
+            perfect for storefronts, logos, interior décor, and branding, making
+            a lasting impression with their modern and dynamic look. Whether
+            illuminated or non-illuminated, we use high-quality materials like
+            acrylic, wood, metal, and foam to create precise, eye-catching
+            designs tailored to your needs. Let us help you stand out with a
+            custom 3D sign that elevates your business.
+          </p>
+          <Link
+            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
+            href={"/services/networking"}
+          >
+            Explore Our Services
+          </Link>
+        </div>
+        <div className="col-span-1 md:h-65 h-full border px-6 py-2 shadow-2xl">
+          <div className="w-full">
+            <h1 className="text-xl font-semibold ">Pylon Banners</h1>
+          </div>
+
+          <p className="my-2">
+            At PMH, we specialize in creating high-quality pylon banners that
+            provide impactful, eye-catching signage for your business or event.
+            Pylon banners are large, freestanding signs perfect for outdoor use,
+            offering excellent visibility from a distance. Whether for a
+            storefront, shopping center, or event space, our custom pylon
+            banners are made with durable materials to withstand the elements
+            while promoting your brand effectively. Let us help you design a
+            pylon banner that makes a bold statement and attracts attention.
+          </p>
+          <Link
+            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
+            href={"/services/networking"}
+          >
+            Explore Our Services
+          </Link>
+        </div>
+      </div>
+    </>
+  );
+}
+
+interface NetworkingCardProps {
+  image: any;
+  link: any;
+  company: any;
+}
+
+function NetworkingCard({ image, link, company }: NetworkingCardProps) {
+  return (
+    <motion.div
+      initial={{
+        x: 0,
+        scale: 0,
+        opacity: 0,
+      }}
+      whileInView={{
+        x: 0,
+        scale: 1,
+        opacity: 1,
+      }}
+      transition={{ duration: 0.8 }}
+      className="w-80 h-80 md:h-64 md:w-96 border relative group"
+    >
+      <Image
+        src={image}
+        alt="Website Image"
+        height={100}
+        width={200}
+        className="w-80 h-72 md:h-56 md:w-96 object-cover"
+      />
+
+      <Link
+        href=""
+        target="_blank"
+        // rel="noopener noreferrer"
+        className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 text-blue-800 text-lg font-semibold transition-opacity duration-300"
+      >
+        Explore
+      </Link>
+      <h1 className="text-center font-semibold hover:z-20 hover:text-white">
+        {company}
+      </h1>
+    </motion.div>
+  );
+}
+
+export default ImageSliderLaserCutting;

@@ -12,17 +12,21 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Top Navbar (Fixed on large screens, Visible on larger screens) */}
+      {/* <div className="w-full h-8 p-4 lg:fixed top-0 left-0 bg-white text-red-700">
+        hi
+      </div> */}
       <nav className="bg-white text-blue-950 p-4 lg:fixed top-0 left-0 w-full h-20 z-50 shadow-md hidden lg:flex justify-between items-center">
         <div className="flex justify-between items-center w-[100%]">
-          <Image
-            src="/logo.png"
-            alt="PMH Logo"
-            width={200}
-            height={100}
-            className="w-20 h-16"
-          />
-          <ul className="flex space-x-6">
+          <Link href={"/"}>
+            <Image
+              src="/pmh logo.png"
+              alt="PMH Logo"
+              width={200}
+              height={100}
+              className="w-20 h-16"
+            />
+          </Link>
+          <ul className="flex items-center space-x-6">
             <li className="group">
               <Link href="/" className="text-blue-950">
                 Home
@@ -53,6 +57,15 @@ const Navbar = () => {
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-900"></span>
               </Link>
             </li>
+            {/* <div className="border  border-blue-950 w-full text-center "> */}
+            <Link
+              href={"/contact-us"}
+              type="submit"
+              className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-all before:duration-300 before:content-[''] hover:text-white hover:before:scale-x-100"
+            >
+              Get Qoute
+            </Link>
+            {/* </div> */}
           </ul>
         </div>
       </nav>
@@ -65,7 +78,7 @@ const Navbar = () => {
       >
         <div className="flex justify-between items-center">
           <Image
-            src="/logo.png"
+            src="/pmh logo.png"
             alt="PMH Logo"
             width={200}
             height={100}
