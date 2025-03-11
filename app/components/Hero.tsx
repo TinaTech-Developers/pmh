@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
-    <div className="bg-scroll bg-[url('/hero.jpg')] bg-cover bg-no-repeat  w-full h-full md:h-[600px]">
+    <div className="bg-scroll bg-[url('/hero.jpg')] bg-cover bg-no-repeat  w-full h-[400px] md:h-[600px]">
       {/* Content container */}
       <div className="px-6 translate-y-80 md:pl-36">
         <motion.h1

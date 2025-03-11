@@ -64,7 +64,7 @@ function ImpactStories() {
           opacity: 1,
         }}
         transition={{ duration: 1.8 }}
-        className="grid grid-cols-1 md:grid-cols-3 p-10 gap-5"
+        className="grid grid-cols-1 md:grid-cols-3 p-10 gap-5 mx-auto"
       >
         <div className=" col-span-1 flex flex-col w-80 h-80 bg-blue-300 border mx-auto py-6 p-4">
           <FaAward size={54} color="white" />

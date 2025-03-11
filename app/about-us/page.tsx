@@ -7,7 +7,7 @@ import Promotion from "../components/Promotion";
 export default function page() {
   return (
     <>
-      <PageHero />
+      <PageHero title="About-us" />
       <About />
       <ImpactStories />
       <Promotion />

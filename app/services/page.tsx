@@ -6,7 +6,7 @@ import ServicesSlider from "../components/ServicesSlider";
 export default function page() {
   return (
     <>
-      <PageHero />
+      <PageHero title="Services" />
       <WhyUs />
       <ServicesSlider />
     </>

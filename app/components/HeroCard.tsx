@@ -10,9 +10,9 @@ interface HeroCardProps {
 
 export default function HeroCard({ image, title, description }: HeroCardProps) {
   return (
-    <div className="w-full h-full md:h-[700px] relative">
+    <div className="w-full h-[400px] md:h-[700px] relative">
       <Image
-        className="relative w-full h-[700px] object-cover" // Object-cover keeps it full size, but you may use object-contain if you want the entire image visible
+        className="relative w-full h-[400px] md:h-[700px] object-cover" // Object-cover keeps it full size, but you may use object-contain if you want the entire image visible
         src={image}
         height={600}
         width={800}
