@@ -14,7 +14,7 @@ function PageHero({ title }: PageHeroProps) {
         height={800}
         className="relative w-full  h-[500px] md:h-[500px] object-cover"
       />
-      <p className="absolute bottom-32 p-10 text-white font-semibold text-xl">
+      <p className="absolute bottom-44 p-10 text-white font-semibold text-xl">
         Home |{" "}
         <span className="font-normal text-gray-200 text-lg">{title}</span>
         <hr

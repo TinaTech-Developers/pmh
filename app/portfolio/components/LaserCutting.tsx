@@ -205,7 +205,7 @@ function NetworkingCard({ image, link, company }: NetworkingCardProps) {
         opacity: 1,
       }}
       transition={{ duration: 0.8 }}
-      className="w-80 h-80 md:h-64 md:w-96 border relative group"
+      className="w-[300px] h-80 md:h-64 md:w-96 border relative group"
     >
       <Image
         src={image}
