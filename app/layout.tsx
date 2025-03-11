@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head"; // Import Head from next/head
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -16,12 +17,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pressletter Media House",
+  title: "Pressletter Media House ",
   description:
     "PMH Pressletter Media House is a signage and media company located in Belvedere, specializing in signage solutions and media services. Visit us at 17 Tredgold Drive, Belvedere.",
   keywords:
     "Pressletter Media House, signage, media company, Belvedere, Tredgold Drive, signage solutions, media services",
-  authors: ["PMH Pressletter Media House"],
+  authors: [
+    {
+      name: "PMH Pressletter Media House",
+      url: "https://yourwebsite.com", // Add your business URL here
+    },
+  ],
   viewport: "width=device-width, initial-scale=1.0",
   robots: "index, follow",
   openGraph: {
@@ -42,43 +48,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US", // Added locale for more region-specific optimization
   },
-  // Structured data for LocalBusiness (Google My Business)
-  script: [
-    {
-      type: "application/ld+json",
-      innerHTML: JSON.stringify({
-        "@context": "http://schema.org",
-        "@type": "LocalBusiness",
-        name: "PMH Pressletter Media House",
-        description:
-          "PMH Pressletter Media House offers signage and media services in Belvedere, specializing in custom signage solutions.",
-        url: "https://yourwebsite.com", // Your business URL
-        logo: "https://yourwebsite.com/logo.jpg", // Update with your actual logo URL
-        image: "https://yourwebsite.com/og-image.jpg", // Add an image URL relevant to your business
-        telephone: "+44-1234-567890", // Update with your business phone number
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "17 Tredgold Drive",
-          addressLocality: "Belvedere",
-          addressRegion: "Kent",
-          postalCode: "DA17 5JB", // Replace with the correct postal code
-          addressCountry: "GB",
-        },
-        geo: {
-          "@type": "GeoCoordinates",
-          latitude: "51.478", // Replace with actual latitude
-          longitude: "0.149", // Replace with actual longitude
-        },
-        sameAs: [
-          "https://www.facebook.com/yourbusiness", // Your Facebook URL
-          "https://www.instagram.com/yourbusiness", // Your Instagram URL
-        ],
-        openingHours: [
-          "Mo-Sa 09:00-18:00", // Update with your actual business hours
-        ],
-      }),
-    },
-  ],
 };
 
 export default function RootLayout({
@@ -91,6 +60,46 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Add structured data inside <Head> */}
+        <Head>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "http://schema.org",
+                "@type": "LocalBusiness",
+                name: "PMH Pressletter Media House",
+                description:
+                  "PMH Pressletter Media House offers signage and media services in Belvedere, specializing in custom signage solutions.",
+                url: "https://yourwebsite.com", // Your business URL
+                logo: "https://yourwebsite.com/logo.jpg", // Update with your actual logo URL
+                image: "https://yourwebsite.com/og-image.jpg", // Add an image URL relevant to your business
+                telephone: "+44-1234-567890", // Update with your business phone number
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress: "17 Tredgold Drive",
+                  addressLocality: "Belvedere",
+                  addressRegion: "Kent",
+                  postalCode: "DA17 5JB", // Replace with the correct postal code
+                  addressCountry: "GB",
+                },
+                geo: {
+                  "@type": "GeoCoordinates",
+                  latitude: "51.478", // Replace with actual latitude
+                  longitude: "0.149", // Replace with actual longitude
+                },
+                sameAs: [
+                  "https://www.facebook.com/yourbusiness", // Your Facebook URL
+                  "https://www.instagram.com/yourbusiness", // Your Instagram URL
+                ],
+                openingHours: [
+                  "Mo-Sa 09:00-18:00", // Update with your actual business hours
+                ],
+              }),
+            }}
+          />
+        </Head>
+
         <Navbar />
         {children}
         <WhatsappButton />
