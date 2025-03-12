@@ -12,9 +12,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* <div className="w-full h-8 p-4 lg:fixed top-0 left-0 bg-white text-red-700">
-        hi
-      </div> */}
       <nav className="bg-white text-blue-950 p-4 lg:fixed top-0 left-0 w-full h-20 z-50 shadow-md hidden lg:flex justify-between items-center">
         <div className="flex justify-between items-center w-[100%]">
           <Link href={"/"}>
