@@ -63,16 +63,16 @@ const Testimonials: React.FC = () => {
           transition={{ duration: 1.8 }}
           className="col-span-2 flex flex-col items-center py-10 "
         >
-          <h2 className=" text-blue-500 font-semibold">| Trustworthiness</h2>
+          <h2 className=" text-blue-500 font-semibold">| Client Insights</h2>
           <h1 className="text-2xl font-semibold text-[#003366] mt-4">
-            Why Choose Us?
+            Testimonials
           </h1>
           <div className="flex items-center justify-between gap-1 mt-2 mb-10 inline-bloc">
             <span className="h-1 w-1 bg-blue-500 rounded-full"></span>
             <span className="h-1 w-2 bg-blue-500 rounded-full"></span>
             <span className="h-1 w-4 bg-blue-500 rounded-full"></span>
-            <span className="h-1 w-14 bg-blue-500 rounded-full"></span>
-            <span className="h-1 w-24 bg-blue-500 rounded-full"></span>
+            <span className="h-1 w-10 bg-blue-500 rounded-full"></span>
+            <span className="h-1 w-16 bg-blue-500 rounded-full"></span>
           </div>
         </motion.div>
         <Slider {...settings}>
