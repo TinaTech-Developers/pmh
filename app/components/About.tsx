@@ -41,18 +41,16 @@ export default function About() {
           //   opacity: 1,
           // }}
           // transition={{ duration: 1.8 }}
-          className="text-gray-700 text-sm"
+          className="text-gray-700 text-"
         >
           Welcome to Pressletter Media House, the leading provider of custom
-          signage solutions. With over 10 years of experience, we specialize in
-          designing, fabricating, and installing premium signage tailored to
-          meet the unique needs of your business. Our team combines industry
-          expertise, innovative design, and top-quality materials to deliver
-          impactful signage that enhances brand visibility, drives engagement,
-          and creates lasting impressions. Whether you're looking for an
-          attention-grabbing storefront sign, a comprehensive wayfinding system,
-          or custom vehicle wraps, we have the expertise and resources to bring
-          your vision to life.
+          signage solutions. With over ten years of experience, we specialize in
+          designing, fabricating, and installing premium signage using
+          cutting-edge technologies like sublimation printing, laser cutting,
+          DTF printing, Embroidery and CNC cutting. Our sublimation printing
+          process ensures vibrant, durable, and full-color designs on various
+          materials, while our laser cutting and CNC cutting services allow for
+          intricate, precise, and customized designs.
         </motion.h1>
       </motion.div>
       <motion.div

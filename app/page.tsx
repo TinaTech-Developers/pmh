@@ -6,6 +6,7 @@ import HeroSlider from "./components/HeroSlider";
 import ImpactStories from "./components/ImpactStories";
 import Promotion from "./components/Promotion";
 import ServicesSlider from "./components/ServicesSlider";
+import Testimonials from "./components/Testimonials";
 import WhyUs from "./components/WhyUs";
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
       <Clients />
       <ClientSlider />
       <Promotion />
+      <Testimonials />
     </>
   );
 }
