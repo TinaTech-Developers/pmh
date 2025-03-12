@@ -20,10 +20,10 @@ function Footer() {
   let mylinks = [
     { name: "Home", link: "/" },
     { name: "Portifolio ", link: "/portfolio" },
-    { name: "Products", link: "/products" },
-    { name: "Services", link: "/services " },
-    { name: "About", link: "/about" },
-    { name: "Contact ", link: "/contact" },
+    { name: "Get Quote", link: "/contact-us" },
+    { name: "Services", link: "/services" },
+    { name: "About", link: "/about-us" },
+    { name: "Contact ", link: "/contact-us" },
   ];
 
   return (

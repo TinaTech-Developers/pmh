@@ -17,7 +17,7 @@ export default function About() {
           opacity: 1,
         }}
         transition={{ duration: 1.8 }}
-        className="col-span-2 flex flex-col items-start py-10 px-10"
+        className="col-span-2 flex flex-col items-start py-5 md:py-10 px-10"
       >
         <h2 className=" text-blue-500 font-semibold">| overview</h2>
         <h1 className="text-2xl font-semibold text-[#003366] mt-4">
