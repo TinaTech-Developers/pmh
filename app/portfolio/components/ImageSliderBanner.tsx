@@ -121,10 +121,13 @@ function ImageSliderBanner() {
             solution for any event or business.
           </p>
           <Link
-            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
-            href={"/services/networking"}
+            href="/portfolio"
+            className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Services
+            Explore Our Laser Services
+            <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
+              Explore Our Laser Services
+            </span>
           </Link>
         </div>
         <div className="col-span-1 md:h-65 h-full border p-6 shadow-2xl">
@@ -141,10 +144,13 @@ function ImageSliderBanner() {
             field.
           </p>
           <Link
-            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
-            href={"/services/networking"}
+            href="/portfolio"
+            className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Services
+            Explore Our Laser Services
+            <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
+              Explore Our Laser Services
+            </span>
           </Link>
         </div>
         <div className="col-span-1 md:h-65 h-full border p-6 shadow-2xl">
@@ -161,10 +167,13 @@ function ImageSliderBanner() {
             banner that stands out and represents your business with style.
           </p>
           <Link
-            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
-            href={"/services/networking"}
+            href="/portfolio"
+            className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Services
+            Explore Our Laser Services
+            <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
+              Explore Our Laser Services
+            </span>
           </Link>
         </div>
       </div>
@@ -203,7 +212,7 @@ function NetworkingCard({ image, link, company }: NetworkingCardProps) {
       />
 
       <Link
-        href=""
+        href="/"
         target="_blank"
         // rel="noopener noreferrer"
         className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 text-blue-800 text-lg font-semibold transition-opacity duration-300"

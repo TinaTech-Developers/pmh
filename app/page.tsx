@@ -1,3 +1,4 @@
+import Link from "next/link";
 import About from "./components/About";
 import Clients from "./components/Clients";
 import ClientSlider from "./components/ClientSlider";
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <HeroSlider />
       <About />
+
       <WhyUs />
 
       <ImpactStories />

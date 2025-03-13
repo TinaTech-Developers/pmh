@@ -13,23 +13,22 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Tinashe Phiri",
-    title: "CEO, TinaSoft Nexus.",
-    image:
-      "https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/470666615_1794087254753300_6398371680762667658_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=O4vDHgAJ3ewQ7kNvgHIHPci&_nc_oc=AdgAiglRH4r9mjxMscQZnRFTXzSfA9DcSAOLRJ2RI-GXA4aKt6_ebeQgxQBvuFpsySZ1ia0eJmT0nhS2Dvwgr2Ux&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=Aijrniiphjee4xXSMkVsmF-&oh=00_AYHfjL4fKnDtjCo__dUytyCZ66qkj1Dj4rzWaMb8d8HUKQ&oe=67D72DE4",
+    name: "Panashe",
+    title: "CEO, MidNight Glow.",
+    image: "",
     quote:
       "Pressletter Media House helped us transform our brand's visibility with their exceptional signage solutions. Highly recommend them!",
   },
   {
-    name: "Jane Smith",
-    title: "Marketing Director, ABC Ltd.",
+    name: "Coach Masuka",
+    title: "Coach, BMC.",
     image: "", // Test case with image
     quote:
-      "The custom vehicle wraps they created for us were beyond our expectations. Our fleet looks fantastic and gets noticed everywhere!",
+      "The standard of their sublimation kit and tailoring is beyond exceptional highly !",
   },
   {
-    name: "Michael Brown",
-    title: "Founder, XYZ Studios",
+    name: "",
+    title: "T & A ",
     image: "", // Test case with no image, should use icon
     quote:
       "Their attention to detail and dedication to quality is second to none. Our storefront sign has attracted so many new customers!",

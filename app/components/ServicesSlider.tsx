@@ -70,7 +70,7 @@ function ServicesSlider() {
         <SwiperSlide>
           <ServiceCard
             title="Gazebo Tents"
-            image="/gaze.png"
+            image="/gazebo.jpg"
             desc="At PMH, we offer high-quality gazebo tents that provide reliable shelter and style for any outdoor event. Perfect for festivals, trade shows, weddings, and more, our gazebo tents are designed for both durability and ease of setup. Available in various sizes and customizable designs, they offer a professional and practical solution to ensure your event is comfortable and visually appealing. With PMH, you can trust that your event will be supported by sturdy, weather-resistant gazebo tents that stand out."
           />
         </SwiperSlide>

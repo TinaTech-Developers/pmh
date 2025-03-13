@@ -12,9 +12,9 @@ function Hero() {
         height={800}
         className="relative w-full h-[500px] md:h-[500px] object-cover"
       />
-      <div className="absolute text-white lg:bottom-20 bottom-52  p-4 md:px-10">
+      <div className="absolute text-white lg:bottom-32 bottom-72  p-4 md:px-10">
         <h1 className="text-2xl font-bold md:text-5xl">Get in Touch with Us</h1>
-        <p className="mt-1 text-sm">
+        <div className="mt-1 text-sm">
           <Typewriter
             options={{
               autoStart: true,
@@ -25,7 +25,7 @@ function Hero() {
               ],
             }}
           />
-        </p>
+        </div>
       </div>
     </div>
   );

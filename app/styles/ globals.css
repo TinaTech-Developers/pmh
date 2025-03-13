@@ -1,0 +1,12 @@
+/* Import Tailwind's Preflight (Base styles) */
+@import "tailwindcss/preflight";
+
+/* Import Tailwind's utility classes */
+@tailwind utilities;
+
+/* Custom Global Styles (optional) */
+body {
+  background-color: #f7fafc; /* example background */
+}
+
+/* You can still add your custom styles here if needed */

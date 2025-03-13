@@ -92,13 +92,6 @@ function ImageSliderRoadSigns() {
         </SwiperSlide>
         <SwiperSlide>
           <NetworkingCard
-            image={"/networking.webp"}
-            link={""}
-            company={"pmh"}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <NetworkingCard
             image={"/IMG-20250311-WA0014.jpg"}
             link={"/portfolio"}
             company={""}
@@ -119,10 +112,13 @@ function ImageSliderRoadSigns() {
             maintain safety and promote compliance with speed regulations.
           </p>
           <Link
-            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
-            href={"/services/networking"}
+            href="/portfolio"
+            className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Services
+            Explore Our Laser Services
+            <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
+              Explore Our Laser Services
+            </span>
           </Link>
         </div>
         <div className="col-span-1 md:h-65 h-full border p-6 shadow-2xl">
@@ -140,10 +136,13 @@ function ImageSliderRoadSigns() {
             informed and safe.
           </p>
           <Link
-            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
-            href={"/services/networking"}
+            href="/portfolio"
+            className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Services
+            Explore Our Laser Services
+            <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
+              Explore Our Laser Services
+            </span>
           </Link>
         </div>
         <div className="col-span-1 md:h-65 h-full border p-6 shadow-2xl">
@@ -162,10 +161,13 @@ function ImageSliderRoadSigns() {
             communication in buildings, events, and public areas.
           </p>
           <Link
-            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
-            href={"/services/networking"}
+            href="/portfolio"
+            className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Services
+            Explore Our Laser Services
+            <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
+              Explore Our Laser Services
+            </span>
           </Link>
         </div>
         <div className="col-span-1 md:h-65 h-full border p-6 shadow-2xl">
@@ -182,10 +184,13 @@ function ImageSliderRoadSigns() {
             messages to ensure safety and compliance.
           </p>
           <Link
-            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
-            href={"/services/networking"}
+            href="/portfolio"
+            className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Services
+            Explore Our Laser Services
+            <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
+              Explore Our Laser Services
+            </span>
           </Link>
         </div>
         <div className="col-span-1 md:h-65 h-full border p-6 shadow-2xl">
@@ -203,10 +208,13 @@ function ImageSliderRoadSigns() {
             necessary guidelines.
           </p>
           <Link
-            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 border  bg-transparent text-blue-950 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
-            href={"/services/networking"}
+            href="/portfolio"
+            className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Services
+            Explore Our Laser Services
+            <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
+              Explore Our Laser Services
+            </span>
           </Link>
         </div>
       </div>

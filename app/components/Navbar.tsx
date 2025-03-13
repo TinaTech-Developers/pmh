@@ -62,6 +62,7 @@ const Navbar = () => {
             >
               Get Qoute
             </Link>
+
             {/* </div> */}
           </ul>
         </div>

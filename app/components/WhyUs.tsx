@@ -7,6 +7,7 @@ import { GiRollingDices } from "react-icons/gi";
 
 import WhyUsCard from "./WhyUsCard";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 function WhyUs() {
   return (
