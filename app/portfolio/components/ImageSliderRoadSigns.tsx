@@ -115,9 +115,9 @@ function ImageSliderRoadSigns() {
             href="/portfolio"
             className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Laser Services
+            Explore Our Services
             <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
-              Explore Our Laser Services
+              Explore Our Services
             </span>
           </Link>
         </div>
@@ -139,9 +139,9 @@ function ImageSliderRoadSigns() {
             href="/portfolio"
             className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Laser Services
+            Explore Our Services
             <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
-              Explore Our Laser Services
+              Explore Our Services
             </span>
           </Link>
         </div>
@@ -164,9 +164,9 @@ function ImageSliderRoadSigns() {
             href="/portfolio"
             className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Laser Services
+            Explore Our Services
             <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
-              Explore Our Laser Services
+              Explore Our Services
             </span>
           </Link>
         </div>
@@ -187,9 +187,9 @@ function ImageSliderRoadSigns() {
             href="/portfolio"
             className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Laser Services
+            Explore Our Services
             <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
-              Explore Our Laser Services
+              Explore Our Services
             </span>
           </Link>
         </div>
@@ -211,9 +211,9 @@ function ImageSliderRoadSigns() {
             href="/portfolio"
             className="text-sm py-2 w-28 border border-[#003366] relative px-4 bg-transparent text-gray-900 group transition-all"
           >
-            Explore Our Laser Services
+            Explore Our Services
             <span className="absolute inset-0 text-center py-2 text-white bg-blue-950 scale-x-0 group-hover:scale-x-100 transition-all duration-300">
-              Explore Our Laser Services
+              Explore Our Services
             </span>
           </Link>
         </div>

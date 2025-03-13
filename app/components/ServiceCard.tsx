@@ -23,7 +23,7 @@ function ServiceCard({ title, image, desc }: ServiceCardProps) {
       </p>
 
       <p className="p-4 text-sm ">{desc}</p>
-      <Link className="w-full h-10 border px-4 py-2 mx-4" href={"/"}>
+      <Link className="w-full h-10 border px-4 py-2 mx-4" href={"/services"}>
         Read More
       </Link>
     </div>

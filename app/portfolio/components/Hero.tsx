@@ -6,13 +6,13 @@ interface PageHeroProps {
 }
 function Hero({ title }: PageHeroProps) {
   return (
-    <div className="w-full h-[500px] md:h-[500px]">
+    <div className="w-full h-[500px] md:h-[530px]">
       <Image
         src={"/bana.jpg"}
         alt=""
         width={1024}
         height={800}
-        className="relative w-full  h-[500px] md:h-[500px] object-cover"
+        className="relative w-full  h-[500px] md:h-[530px] object-cover"
       />
       <div className="absolute lg:bottom-48 bottom-72 p-10 text-white font-semibold text-xl">
         Home |{" "}

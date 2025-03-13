@@ -95,7 +95,7 @@ function ServicesSlider() {
         <SwiperSlide>
           <ServiceCard
             title="Vehicle Branding"
-            image="/vehicle-branding.png"
+            image="/IMG-20250311-WA0059.jpg"
             desc="At PMH, we provide top-tier vehicle branding services that turn your fleet into mobile billboards. Our high-quality wraps, decals, and graphics are designed to make your vehicles stand out on the road while promoting your brand. Whether for a single vehicle or an entire fleet, we ensure that your branding is bold, durable, and eye-catching. With PMH, you can increase visibility and attract more customers, all while on the move.
 
 "
