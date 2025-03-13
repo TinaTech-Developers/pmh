@@ -19,8 +19,8 @@ function EmailnAddress() {
 
     if (form.current) {
       emailjs
-        .sendForm("service_83tjn5l", "template_stpplth", form.current, {
-          publicKey: "Eo9uSp3q7FYq9TxKF",
+        .sendForm("service_fh9gnqf", "template_pfws2qh", form.current, {
+          publicKey: "NKEqxewRiSKRnxvh6",
         })
         .then(
           () => {
@@ -63,7 +63,7 @@ function EmailnAddress() {
               <p className="font-bold text-sm col-span-1">Name</p>
               <input
                 type="text"
-                name="user_name"
+                name="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 className="bg-gray-300 py-2 px-4 w-full outline-none border-none col-span-3"
@@ -73,7 +73,7 @@ function EmailnAddress() {
               <p className="font-bold text-sm col-span-1">Email</p>
               <input
                 type="text"
-                name="user_email"
+                name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="bg-gray-300 py-2 px-4 w-full outline-none border-none col-span-3"
